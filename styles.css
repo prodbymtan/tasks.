@@ -1,0 +1,89 @@
+/* styles.css */
+html{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;  
+}
+body { 
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  background: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+  width: 1000px;;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+  font-size:60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.task-manager {
+  margin-bottom: 30px;
+}
+
+.task-manager ul {
+  list-style-type: none;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.task-manager ul li {
+  background: #000000;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-manager ul li button {
+  background: transparent;
+  border: none;
+  color: rgb(233, 34, 34);
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 200px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  font-size: large;
+  background-color: black;
+  color: #ffffff;
+  padding-right: 10px;
+  border:none
+}
+input[type="text"]::placeholder {
+  font-size: 18px; /* Adjust the desired size */
+  color: #ffffffde;
+}
+
+#add-task {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 30px 30px 10px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#add-task img {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the size as needed */
+}
